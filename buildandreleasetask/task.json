@@ -1,0 +1,23 @@
+{
+  "id": "[GUID]",
+  "name": "Semgrep Code Scan",
+  "friendlyName": "Semgrep Code Scan Task",
+  "description": "SAST scanning",
+  "helpMarkDown": "",
+  "category": "Utility",
+  "author": "d4mn20",
+  "version": {
+    "Major": 0,
+    "Minor": 1,
+    "Patch": 6
+  },
+  "instanceNameFormat": "BBTS Code Security Task",
+  "inputs": [],
+  "execution": {
+    "Node16": {
+      "target": "dist/index.js"
+    }
+  },
+  "icon": "images/task-icon.png"
+}
+

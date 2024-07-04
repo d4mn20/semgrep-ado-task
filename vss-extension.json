@@ -1,0 +1,37 @@
+{
+  "manifestVersion": 1,
+  "id": "build-secure-code-task",
+  "name": "Semgrep Code Scan",
+  "version": "0.0.1",
+  "publisher": "d4mn20",
+  "targets": [
+      {
+          "id": "Microsoft.VisualStudio.Services"
+      }
+  ],
+  "description": "Tools for building with security. Includes one security build task.",
+  "categories": [
+      "Azure Pipelines"
+  ],
+  "icons": {
+      "default": "images/extension-icon.png"
+  },
+  "files": [
+      {
+          "path": "buildandreleasetask"
+      }
+  ],
+  "contributions": [
+      {
+          "id": "[GUID]",
+          "type": "ms.vss-distributed-task.task",
+          "targets": [
+              "ms.vss-distributed-task.tasks"
+          ],
+          "properties": {
+              "name": "buildandreleasetask"
+          }
+      }
+  ]
+}
+
