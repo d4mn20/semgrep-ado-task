@@ -12,7 +12,7 @@
   "description": "",
   "dependencies": {
     "axios": "^1.7.2",
-    "azure-pipelines-task-lib": "^4.13.0",
+    "azure-pipelines-task-lib": "^4.14.0",
     "form-data": "^4.0.0"
   },
   "devDependencies": {
