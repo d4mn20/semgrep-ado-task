@@ -59,7 +59,7 @@ const sendRequest = async () => {
       url: 'https://[ddconnector]/api/v1/upload',
       headers: {
         'Accept': '*/*',
-        'Host': 'devsecops.bbts.com.br',
+        'Host': 'ddconnector.com.br',
         'Connection': 'keep-alive',
         ...data.getHeaders(),
       },
